@@ -5,12 +5,12 @@
 
 ```
 
-OpenModel/
-├── input/                            # Каталог для обработки одного .cs файла за раз
-├── output/                           # Каталог для сгенерированных Markdown-файлов
-├── models/
-│   └── deepseek-coder-6.7b-instruct.Q4\_K\_M.gguf  # Языковая модель (обязательно именно эта)
-├── generate\_docs.sh                 # Скрипт запуска LLM через Docker (LLAMA.cpp)
+OpenModel/  
+├── input/                            # Каталог для обработки одного .cs файла за раз  
+├── output/                           # Каталог для сгенерированных Markdown-файлов  
+├── models/  
+│   └── deepseek-coder-6.7b-instruct.Q4\_K\_M.gguf  # Языковая модель (обязательно именно эта)  
+├── generate\_docs.sh                 # Скрипт запуска LLM через Docker (LLAMA.cpp)  
 ├── unzip\_and\_generate\_docs.sh      # Обёртка для обработки .zip проекта поэлементно
 
 ````
